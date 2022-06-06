@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ranchers&display=swap');
+
+*,
+*:before,
+*:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  #38f204 ;
+}
+
+.container{
+    background-color: #03b0fa;
+    width: 30%;
+    min-width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 30px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    font-family: Anton;
+}
+
+.stopwatchDisplay{
+    position: relative;
+    width: 92%;
+    background: orangered;
+    left: 4%;
+    padding: 40px,0;
+    color:yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    font-size: 45px;
+    box-shadow: 2px 2px 2px;
+
+}
+
+.buttons{
+    width: 90%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button{
+    height: 40px;
+    width: 125px;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: Anton;
+    margin: 10px;
+    box-shadow: 1px 1px 1px;
+}
+
+.pause{
+    background-color: yellow;
+    color: purple;
+}
+
+.start{
+    background-color: greenyellow;
+    color:red;
+}
+
+.reset{
+    background-color: orange;
+    color: blue;
+}
+
+.title{
+    text-align: center;
+    margin-top: 100px;
+    color: royalblue;
+    font-size: 50px;
+    font-family: Anton;
+}
+
+.pause:hover{
+    text-decoration: underline;
+}
+
+.reset:hover{
+    text-decoration: underline;
+}
+
+.start:hover{
+    text-decoration: underline;
+}
